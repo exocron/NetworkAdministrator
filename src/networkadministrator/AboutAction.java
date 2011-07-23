@@ -2,6 +2,8 @@ package networkadministrator;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Link;
 import org.eclipse.ui.IWorkbenchWindow;
 
 /**
@@ -19,10 +21,10 @@ public class AboutAction extends Action {
 
 	public void run() {
 		if(window != null) {	
-			String title = "About RAP";
-			String msg =   "RAP Mail template created by PDE.\n\n"
-			             + "You can learn more about RAP at:\n\n"
-			             + "http://www.eclipse.org/rap";
+			String title = "About RAP Network Administrator";
+			String msg =   "RAP Network Administrator is free software.\n\n"
+			             + "For more information, visit: "
+			             + "http://www.github.com/Isaac356/RAPNetworkAdministrator";
 			MessageDialog.openInformation(window.getShell(), title, msg);
 		}
 	}
