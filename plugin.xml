@@ -37,6 +37,13 @@
             class="networkadministrator.NavigationView"
             id="NetworkAdministrator.navigationView">
       </view>
+      <view
+            class="networkadministrator.DownloadView"
+            icon="icons/download.png"
+            id="networkadministrator.DownloadView"
+            name="Downloads"
+            restorable="true">
+      </view>
    </extension>
    <extension
          point="org.eclipse.ui.commands">
@@ -66,9 +73,8 @@
             title="RAP Maildemo"
             id="networkadministrator.branding">
          <presentationFactory
-               defaultLayoutId="org.eclipse.rap.design.example.fancy.layout"
-               name="Fancy PresentationFactory"
-               id="org.eclipse.rap.design.example.fancy.factory">
+               name="Default PresentationFactory"
+               id="org.eclipse.ui.presentations.default">
             <defaultStackPresentation
                   id="org.eclipse.rap.design.example.stack.view">
             </defaultStackPresentation>
