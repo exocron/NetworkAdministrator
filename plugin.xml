@@ -66,9 +66,9 @@
             title="RAP Maildemo"
             id="networkadministrator.branding">
          <presentationFactory
-               defaultLayoutId="org.eclipse.rap.design.example.business.layout"
-               name="Business PresentationFactory"
-               id="org.eclipse.rap.design.example.business.factory">
+               defaultLayoutId="org.eclipse.rap.design.example.fancy.layout"
+               name="Fancy PresentationFactory"
+               id="org.eclipse.rap.design.example.fancy.factory">
             <defaultStackPresentation
                   id="org.eclipse.rap.design.example.stack.view">
             </defaultStackPresentation>
