@@ -1,0 +1,12 @@
+This program is designed to provide a web interface to a PC that I am planning on using as a router for my home network. This project is also an excuse for me to learn the Rich Ajax Platform. Some of the things I want to be able to do with it are:
+
+* Download files
+* Wake-on-lan any computers on the network
+* Provide GUI for proxy software
+
+...and more. Currently, only downloading of HTTP files to a temp directory is implemented. Also, ignore the remnants of the RAP Mail Demo in there, they will be phased out eventually.
+
+
+
+
+Since GPL compatibility with Eclipse plugins is questionable, I'm releasing this under EPL.
